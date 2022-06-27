@@ -7,6 +7,37 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background-color: lightgrey;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 img {
@@ -19,7 +50,6 @@ button {
   border-radius: 8px;
   background: #eee;
   padding: 8px 16px;
-  
 }
 
 input {
@@ -29,36 +59,3 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
-
-.header,
-.footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 8px;
-}
-
-.footer {
-  background-color: #eeeeee;
-}
-
-.content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  flex: 1;
-}
-
-ul {
-  display: flex;
-  gap: 16px;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-a { 
-  text-decoration: none;
-  color: black;
-}
-
