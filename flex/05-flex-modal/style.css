@@ -9,7 +9,7 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
+  /* I'll give you this one for free */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,9 +20,9 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 16px;
+  gap: 16px;
   display: flex;
-  padding: 15px;
-  gap: 30px;
 }
 
 .header {
@@ -30,8 +30,9 @@ body {
   font-weight: bold;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
+
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -47,9 +48,8 @@ body {
 }
 
 .text {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
-
 .close-button {
   background: #eee;
   border-radius: 50%;
